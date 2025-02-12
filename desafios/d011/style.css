@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* 100% da altura da tela */
+    background-image: url('imagens/espaco.jpg');
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
+}
+body > img.astronauta{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Move a imagem para o centro exato */
+     /* Ajuste o tamanho conforme necessário = width: 200px;*/ 
+}
+
