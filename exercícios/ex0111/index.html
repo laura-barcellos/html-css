@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Formulários</h1>
+        <hr>
+        <br>
+
+        <form action="" method="">
+            <div> <!-- Campo de Texto -->
+                <label for="texto">Nome:</label>
+                <input type="text" id="texto" placeholder="Informe o seu nome..." value="Laura" name="nome">
+            </div>
+            <div> <!-- Campo de Senha -->
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" placeholder="Informe a sua senha..." name="senha">
+            </div>
+            <div> <!-- Campo de E-mail -->
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Informe o seu e-mail..." name="email">
+            </div>
+            <div> <!-- Campo de Data -->
+                <label for="data">Data de Nascimento</label>
+                <input type="date" id="data" name="data">
+            </div>
+            <div> <!-- Campo de Hora -->
+                <label for="hora">Horário:</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+            <div> <!-- Campo Numérico -->
+                <label for="qualquer">Input:</label>
+                <input type="number" name="qualquer" id="qualquer">
+            </div>
+            <div> <!-- Campo de Arquivo -->
+                <label for="Input">Input:</label>
+                <input type="file" name="Input" id="Input">
+            </div>
+            <div> <!-- Campo de URL -->
+                <label for="Input">Input:</label>
+                <input type="url" name="Input" id="Input">
+            </div>
+            <div> <!-- Seletor de Cores -->
+                <label for="Input">Input:</label>
+                <input type="color" name="Input" id="Input">
+            </div>
+            <div> <!-- Barra de Deslizamento -->
+                <label for="Input">Input:</label>
+                <input type="range" name="Input" id="Input" value="100" min="100" max="200" step="50">
+            </div>
+            <div> <!-- Caixa de Seleção -->
+                <label for="Input">Input:</label>
+                <input type="checkbox" name="Input" id="Input" checked>
+            </div>
+            <div> <!-- Botão de Radio -->
+                <label for="Input">Input:</label>
+                <input type="radio" name="Input" id="Input">
+            </div>
+            <div> <!-- Botão de Reset -->
+                <label for="Input">Input:</label>
+                <input type="reset" name="Input" id="Input" value="Limpar">
+            </div>
+            <div> <!-- Menu Suspenso -->
+                <select name="select" id="select">
+                <option value="" disabled selected>Selecione uma das opções...</option>
+                <option value="receita">Receita</option>
+                <option value="despesa">Despesa</option>
+                <option value="Transferencia">Transferencia</option>
+                </select>
+            </div>
+            <br><br><br><br><br>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            <div> <!-- Botão de Submit -->
+                <input type="submit" name="Input" id="Input" value="Enviar">
+            </div> 
+        </form>
+    </main>
+</body>
+</html>
